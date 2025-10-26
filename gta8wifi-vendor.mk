@@ -105,8 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/otpdata/sale_after_input_parameters_values.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/sale_after_input_parameters_values.txt \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/otpdata/sell_aft_cali.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/sell_aft_cali.txt \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/otpdata/spw_input_parameters_values.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/spw_input_parameters_values.txt \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/permissions/vendor_remove_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor_remove_telephony_features.xml \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/power_info.db:$(TARGET_COPY_OUT_VENDOR)/etc/power_info.db \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/power_resource_file_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_resource_file_info.xml \
@@ -495,8 +493,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/otpdata/sale_after_input_parameters_values.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/sale_after_input_parameters_values.txt \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/otpdata/sell_aft_cali.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/sell_aft_cali.txt \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/otpdata/spw_input_parameters_values.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/spw_input_parameters_values.txt \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
-    vendor/samsung/gta8wifi/proprietary/vendor/etc/permissions/vendor_remove_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor_remove_telephony_features.xml \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/power_info.db:$(TARGET_COPY_OUT_VENDOR)/etc/power_info.db \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/power_resource_file_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_resource_file_info.xml \
