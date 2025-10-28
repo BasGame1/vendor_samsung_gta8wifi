@@ -1,10 +1,8 @@
 #
 # Automatically generated file. DO NOT MODIFY
 #
-
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/gta8wifi
-
 PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/atcmdlist:$(TARGET_COPY_OUT_VENDOR)/atcmdlist \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
@@ -227,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_48x24x13.yuv \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_72x36x13.yuv \
     vendor/samsung/gta8wifi/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p
-
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources \
     android.hardware.graphics.composer@2.2-resources \
@@ -250,7 +247,6 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_ac4dec \
     libcodec2_soft_common \
     libcodec2_soft_eac3dec \
-    libdeccfg \
     libdk_vnd_service_core \
     libengbt \
     libengmode15 \
@@ -391,9 +387,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.engmode@1.0-service \
     vendor.samsung.hardware.security.vaultkeeper@2.0-service \
     wvkprov
-
 ifneq ($(TARGET_IS_TABLET),true)
-
 PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/atcmdlist:$(TARGET_COPY_OUT_VENDOR)/atcmdlist \
     vendor/samsung/gta8wifi/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
@@ -615,7 +609,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/time_vert_48x24x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_48x24x13.yuv \
     vendor/samsung/gta8wifi/proprietary/vendor/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_72x36x13.yuv \
     vendor/samsung/gta8wifi/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p
-
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources \
     android.hardware.graphics.composer@2.2-resources \
@@ -638,7 +631,6 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_ac4dec \
     libcodec2_soft_common \
     libcodec2_soft_eac3dec \
-    libdeccfg \
     libdk_vnd_service_core \
     libengbt \
     libengmode15 \
@@ -779,5 +771,4 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.engmode@1.0-service \
     vendor.samsung.hardware.security.vaultkeeper@2.0-service \
     wvkprov
-
 endif
